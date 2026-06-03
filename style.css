@@ -27,6 +27,7 @@ body {
     color: #441113;
 }
 #main-h1 {
+    
     background-color: #ECDAC3;
     background-image: url('https://images.unsplash.com/photo-1556607356-981b53ee3b63?q=80&w=1175&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
@@ -59,7 +60,8 @@ footer a {
 .services {
     display: flex;
     justify-content: space-around;
-   
+    align-items: center;
+    
 }
     .services2 {
         border:hsl(121, 59%, 26%) solid 4px;
@@ -80,7 +82,7 @@ footer a {
 #main {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 4rem;
+    padding: 1rem;
 
 }
 .info {
@@ -90,18 +92,27 @@ footer a {
 
 #main-div {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-item: center;
     gap: 5px;
+    background-color: #ECDAC3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('https://plus.unsplash.com/premium_photo-1661340731247-6700b6e02873?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
 
 }
 #content p {
     margin: 2rem;
-    border:#d9015c solid 4px;
+    border:#bd5d85 solid 4px;
     padding: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: large;
     font-weight: bold;
+    background-color: #ECDAC3;
+    color:#441113;
+    
 }
 
 #image img {
@@ -115,4 +126,8 @@ form {
     align-items: center;
     gap: 1rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#image {
+    visibility: hidden;
 }
