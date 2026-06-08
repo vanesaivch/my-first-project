@@ -24,7 +24,7 @@
         max-width: 100%;
         height: auto;
     } 
-    
+
 } 
     
 
@@ -68,11 +68,12 @@ img {
     height: auto;
 }
 
-/* Home page styles */
 body {
     background-color: #ECDAC3;
     color: #441113;
 }
+/* Home page styles */
+
 #main-h1 {
     
     background-color: #ECDAC3;
@@ -160,7 +161,6 @@ footer {
     text-align: center;
     line-height: 1.25rem;
 
-    
 }
 
 footer a {
