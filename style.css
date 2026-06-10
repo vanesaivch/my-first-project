@@ -232,6 +232,13 @@ h1 {
   gap: 5px;
   height: 200px;
   overflow: hidden;
+
+}
+
+.images {
+  flex: 1;
+  border-radius: 25% 10%; 
+  overflow: hidden;
 }
 
 
