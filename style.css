@@ -153,7 +153,9 @@ body {
 .services {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
+  gap: 1rem;
+ 
 }
 .services2 {
   border: hsl(121, 59%, 26%) solid 4px;
@@ -163,6 +165,8 @@ body {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+     min-width: 250px;
+  max-width: 32%;
 }
 .services2:hover {
   transform: scale(1.05);
