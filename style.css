@@ -21,7 +21,6 @@
     align-items: center;
     font-size: 0;
   }
-
   .home::before {
     content: '';
     display: inline-block;
@@ -92,6 +91,7 @@
     height: auto;
   }
 }
+  
 
 /* Header styles */
 header {
@@ -217,6 +217,24 @@ h1 {
 #image {
   visibility: hidden;
 }
+
+/* Our work section styles */
+
+#our-work {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  height: 200px;
+  overflow: hidden;
+}
+
+
 
 /* footer styles */
 
