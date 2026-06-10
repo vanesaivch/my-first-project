@@ -241,6 +241,10 @@ h1 {
   overflow: hidden;
 }
 
+#our-work .images:active {
+  flex: 5;
+}
+
 
 
 /* footer styles */
