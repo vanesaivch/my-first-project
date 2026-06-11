@@ -109,6 +109,7 @@ a {
   font-family: Garamond, sans-serif;
   padding: 20px;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 
 a:hover {
