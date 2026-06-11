@@ -155,6 +155,20 @@ body {
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#main-h1 > h1 {
+  background-color: hsla(335 42.1% 55.3% / 0.53);
+  
+}
+#main {
+  background-color: hsla(335 42.1% 55.3% / 0.53);
+  
+}
+
+#main {
+  background-color: hsl(hue, saturation, lightness);
 }
 .services {
   display: flex;
