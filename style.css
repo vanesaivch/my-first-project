@@ -128,6 +128,10 @@ nav {
   height: auto;
 }
 
+.active {
+  text-transform: uppercase;
+}
+
 /* Main content styles */
 
 img {
