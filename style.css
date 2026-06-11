@@ -108,6 +108,7 @@ a {
   font-weight: bold;
   font-family: Garamond, sans-serif;
   padding: 20px;
+  text-decoration: none;
 }
 
 a:hover {
@@ -270,7 +271,9 @@ footer a {
   margin: 10px;
   width: 30%;
 }
-
+i {
+  color:hsl(121, 59%, 26%);
+}
 /* Contact form styles */
 form {
   display: flex;
