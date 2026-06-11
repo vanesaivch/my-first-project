@@ -42,7 +42,7 @@
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url('assets/mobile-nav-icons/information.png');
+    background-image: url('assets/mobile-nav-icons/about.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 3px;
@@ -59,7 +59,7 @@
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url('assets/mobile-nav-icons/hard-work.png');
+    background-image: url('assets/mobile-nav-icons/work.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 3px;
@@ -76,7 +76,7 @@
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url('assets/mobile-nav-icons/contact-form.png');
+    background-image: url('assets/mobile-nav-icons/envelope.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 3px;
