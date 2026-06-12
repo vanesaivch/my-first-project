@@ -14,6 +14,7 @@
     margin-left: 0;
     text-align: left;
   }
+  
   /* Mobile nav icons */
 
   .home {
@@ -159,6 +160,10 @@ body {
   height: 500px;
   width: 100%;
 }
+#main-h1 h1, #main {
+  background-color:hsla(334, 80%, 78%, 0.522)
+}
+
 
 .services {
   display: flex;
