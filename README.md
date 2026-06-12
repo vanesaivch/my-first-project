@@ -22,7 +22,7 @@ The footer includes the flower shop’s address, contact details, and links to i
 
 The layout of the footer was built using CSS Flexbox with address on the left and social media networks on the right
 
-For the social media links, I used <i> elements to display icons representing each platform, such as Facebook, Instagram, and Twitter.
+For the social media links, I used font awesome icons elements to display icons representing each platform, such as Facebook, Instagram, and Twitter.
 
 #### Home Page
 The Home page is divided into two main sections.
