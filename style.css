@@ -156,6 +156,8 @@ body {
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+  height: 500px;
+  width: 100%;
 }
 
 .services {
