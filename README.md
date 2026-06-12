@@ -9,6 +9,9 @@ I chose the topic of flowers because they offer a wide variety of colours, shape
 ## Development Process
 ### General Styles
 <! Body general Styles-->
+Main colors of the body are:   
+background-color: #ecdac3;
+  color: #441113;
 ### Header and Footer
 Both Header and Footer has same color for background #d9015c, text #fef5e2 and hover (hsl(121, 59%, 26%))  
 #### Header
