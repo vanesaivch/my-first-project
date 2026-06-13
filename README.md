@@ -49,7 +49,10 @@ The contact page hosts a centrally aligned form component split into two logical
 #### Media query
 ##### Mibile devides of max-width:768px
  - Refactored responsive image handling by migrating inline HTML dimensions to CSS, applying a max-width: 100% and height: auto rule to resolve mobile layout breaking. 
- - Updated the header configuration to use a Flexbox column layout, and refactored the navigation bar by setting font-size: 0 to hide text labels in favor of icon fonts, which now match the cohesive nav and footer color palette. 
+ - Updated the header configuration to use a Flexbox column layout, and refactored the navigation bar by setting font-size: 0 to hide text labels in favor of icon fonts, which now match the cohesive nav and footer color palette. The icons did't appear big enought and seems Contact icon pop on the next line. To fix this issue I added:
+    - Increased size from 18px to 24px.
+    - Added flex-wrap: nowrap, justify-content in the center with 100% width.
+    - Logo is aligned-self in center.
  - Optimized the Home page services layout for mobile responsiveness; using a max-width: 768px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
 ## Technologies used
 - HTML

@@ -4,94 +4,7 @@
   box-sizing: border-box;
 }
 
-@media (max-width: 768px) and (min-width: 320px) {
-  header {
-    flex-direction: column;
-    align-items: flex-start; 
-   }
 
-  nav {
-    margin-left: 0;
-    text-align: left;
-  }
-  
-  /* Mobile nav icons */
-
-  .home {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0;
-  }
-  .home::before {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url('assets/mobile-nav-icons/home.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 3px;
-  }
-  .about {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0;
-  }
-
-  .about::before {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url('assets/mobile-nav-icons/about.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 3px;
-  }
-
-  .our-work {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0;
-  }
-
-  .our-work::before {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url('assets/mobile-nav-icons/work.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 3px;
-  }
-
-  .contact {
-    display: inline-flex;
-    align-items: center;
-    font-size: 0;
-  }
-
-  .contact::before {
-    content: '';
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url('assets/mobile-nav-icons/envelope.png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-right: 3px;
-  }
- 
-  .services {
-    flex-direction: column;
-    gap: 20px;
-  }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-}
   
 
 /* Header styles */
@@ -303,4 +216,113 @@ form {
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
+}
+
+@media (max-width: 768px) and (min-width: 320px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start; 
+   }
+
+  nav {
+    margin-left: 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+  #logo {
+
+    align-self: center;
+  }
+  
+  /* Mobile nav icons */
+
+  a {
+    min-height: 25px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .home {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+  .home::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+  .about {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  .about::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/about.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+  .our-work {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  .our-work::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/work.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+  .contact {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  .contact::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/envelope.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+ 
+  .services {
+    flex-direction: column;
+    gap: 20px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
