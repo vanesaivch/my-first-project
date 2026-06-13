@@ -324,7 +324,21 @@ form {
     background-position: center;
     margin-right: 5px;
   }
+ /* Home page mobile styles */
  
+ #main-h1 > h1 {
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+
+ }
+ #main {
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+ }
   .services {
     flex-direction: column;
     gap: 20px;

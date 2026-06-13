@@ -53,7 +53,9 @@ The contact page hosts a centrally aligned form component split into two logical
     - Increased size from 18px to 24px.
     - Added flex-wrap: nowrap, justify-content in the center with 100% width.
     - Logo is aligned-self in center.
+###### Home page
  - Optimized the Home page services layout for mobile responsiveness; using a max-width: 768px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
+ - The position of #main-h1 on laptop was styled with width,left,top proeprties. This caused overflow to mobile. I put same properies back to width:100% and left and top to auto, so it looks better on mobile.
 ## Technologies used
 - HTML
 - CSS
