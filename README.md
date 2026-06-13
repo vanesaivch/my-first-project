@@ -33,6 +33,16 @@ The first section features a welcoming message that greets users when they visit
 
 The second section focuses on the services offered by the shop. It provides a concise description of the different floral services available. There are 3 div in flex row with images and border in color hsl(121, 59%, 26%) solid 4px. This color is the same as hover on header and footer. As well as choosen font family is "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif.
 
+#### ABout us Page
+The layout for the "About Us" page consists of a background image with a semi-transparent black overlay for high readability. The structure uses a two-column flexbox where the left column is left empty to offset the content, while the right column houses three paragraphs of company information. Each paragraph is wrapped in a distinct container element styled with a custom background and border, creating a clean, right-aligned block of text cards.
+Colors are inherited of body styles but additional are added on parapgraphs border as #bd5d85 solid 4px
+
+#### Our Work
+The portfolio gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve.
+
+#### Contact us
+
+The contact page hosts a centrally aligned form component split into two logical fieldsets: "Your Details" and "Your Enquiry." The first section contains standard text inputs for name, email, and telephone, while the second section includes a select option dropdown for the inquiry type, a textarea for the message body, and a submit button. Upon successful form submission, the application routes the user to a standard confirmation "Thank You" view.
 ## Technologies used
 - HTML
 - CSS
