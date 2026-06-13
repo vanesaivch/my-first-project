@@ -47,14 +47,14 @@ The portfolio gallery is constructed using a Flexbox layout displaying twelve hi
 The contact page hosts a centrally aligned form component split into two logical fieldsets: "Your Details" and "Your Enquiry." The first section contains standard text inputs for name, email, and telephone, while the second section includes a select option dropdown for the inquiry type, a textarea for the message body, and a submit button. Upon successful form submission, the application routes the user to a standard confirmation "Thank You" view.
 
 #### Media query
-##### Mibile devides of max-width:768px
+##### Mibile devides of max-width:576px
  - Refactored responsive image handling by migrating inline HTML dimensions to CSS, applying a max-width: 100% and height: auto rule to resolve mobile layout breaking. 
  - Updated the header configuration to use a Flexbox column layout, and refactored the navigation bar by setting font-size: 0 to hide text labels in favor of icon fonts, which now match the cohesive nav and footer color palette. The icons did't appear big enought and seems Contact icon pop on the next line. To fix this issue I added:
     - Increased size from 18px to 24px.
     - Added flex-wrap: nowrap, justify-content in the center with 100% width.
     - Logo is aligned-self in center.
 ###### Home page
- - Optimized the Home page services layout for mobile responsiveness; using a max-width: 768px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
+ - Optimized the Home page services layout for mobile responsiveness; using a max-width: 576px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
  - The position of #main-h1 on laptop was styled with width,left,top proeprties. This caused overflow to mobile. I put same properies back to width:100% and left and top to auto, so it looks better on mobile.
 ## Technologies used
 - HTML
