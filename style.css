@@ -44,6 +44,7 @@ nav {
 
 .active {
   text-transform: uppercase;
+  
 }
 
 /* Main content styles */
@@ -74,7 +75,8 @@ body {
   width: 100%;
 }
 #main-h1 h1, #main {
-  background-color:hsla(334, 80%, 78%, 0.522)
+  background-color:hsla(334, 80%, 78%, 0.522);
+
 }
 
 
@@ -99,19 +101,26 @@ body {
 .services2:hover {
   transform: scale(1.05);
 }
-h1 {
+#main-h1 > h1 {
   text-align: center;
   font-size: 3rem;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    position: relative;
+    width: 80%;
+    left: 10%;
+    top: 20%;
 }
 #main {
   text-align: center;
   font-family:
     "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 1rem;
+  position: relative;
+  width: 40%;
+  left: 30%;
+  top: 30%;
 }
 .info {
   text-align: center;
@@ -235,7 +244,6 @@ form {
 
   
   #logo {
-
     align-self: center;
   }
   

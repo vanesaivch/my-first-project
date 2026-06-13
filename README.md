@@ -32,7 +32,7 @@ For the social media links, I used font awesome icons elements to display icons 
 
 #### Home Page
 The Home page is divided into two main sections.
-The first section features a welcoming message that greets users when they visit the website. It includes a brief introduction to the flower shop. It is wrpaed in a div with h1 and p. There is background image with height of 585px. H1 and p text is in color #fef5e2 and has its own transparent background in color hsla(334, 80%, 78%, 0.522) so it can be fully readeble.
+The first section features a welcoming message that greets users when they visit the website. It includes a brief introduction to the flower shop. It is wrpaed in a div with h1 and p. There is background image with height of 585px. H1 and p text is in color #fef5e2 and has its own transparent background in color hsla(334, 80%, 78%, 0.522) so it can be fully readeble. As the text wasn't looking well enough, I added relative position to both h1 and p. H1 have width of 80% with left:10% and top:20%, and p have width of 40% with left of 30% and top of 30%. This made it stays more cerntal of the page.
 
 The second section focuses on the services offered by the shop. It provides a concise description of the different floral services available. There are 3 div in flex row with images and border in color hsl(121, 59%, 26%) solid 4px. This color is the same as hover on header and footer. As well as choosen font family is "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif.
 
