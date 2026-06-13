@@ -8,10 +8,13 @@ Website is build with responsive design for different devices, contact form, com
 I chose the topic of flowers because they offer a wide variety of colours, shapes, and textures that can be combined to create visually appealing designs. The diverse colour combinations and high-quality floral images make it possible to design an attractive and engaging website with a welcoming atmosphere. Flowers also provide inspiration for elegant layouts and creative styling, allowing the website to showcase products in a way that captures the attention of visitors.
 ## Development Process
 ### General Styles
-<! Body general Styles-->
-Main colors of the body are:   
+All pages have:
+- Box-sizing of border-box
+- Margina and padding set to 0
+- Main colors of the body are:   
 background-color: #ecdac3;
   color: #441113;
+
 ### Header and Footer
 Both Header and Footer has same color for background #d9015c, text #fef5e2 and hover (hsl(121, 59%, 26%))  
 #### Header
@@ -41,8 +44,13 @@ Colors are inherited of body styles but additional are added on parapgraphs bord
 The portfolio gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve.
 
 #### Contact us
-
 The contact page hosts a centrally aligned form component split into two logical fieldsets: "Your Details" and "Your Enquiry." The first section contains standard text inputs for name, email, and telephone, while the second section includes a select option dropdown for the inquiry type, a textarea for the message body, and a submit button. Upon successful form submission, the application routes the user to a standard confirmation "Thank You" view.
+
+#### Media query
+##### Mibile devides of max-width:768px
+ - Refactored responsive image handling by migrating inline HTML dimensions to CSS, applying a max-width: 100% and height: auto rule to resolve mobile layout breaking. 
+ - Updated the header configuration to use a Flexbox column layout, and refactored the navigation bar by setting font-size: 0 to hide text labels in favor of icon fonts, which now match the cohesive nav and footer color palette. 
+ - Optimized the Home page services layout for mobile responsiveness; using a max-width: 768px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
 ## Technologies used
 - HTML
 - CSS
