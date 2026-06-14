@@ -195,7 +195,26 @@ main {
   object-fit: cover;
 }
 
+/* Contact form styles */
+.contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/33229634/pexels-photo-33229634.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+form {
+  min-width: 45%;
+  padding: 1.5rem;
+  background: 
+  hsla(34, 52%, 85%, 0.507);
+  border-radius: 1.5rem;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
 
 /* footer styles */
 
