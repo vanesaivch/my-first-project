@@ -250,7 +250,7 @@ form {
   
   /* Mobile nav icons */
 
-  a {
+  .nav {
     min-height: 25px;
     display: inline-flex;
     align-items: center;
