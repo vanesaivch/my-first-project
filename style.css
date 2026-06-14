@@ -57,6 +57,13 @@ img {
 body {
   background-color: #ecdac3;
   color: #441113;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 /* Home page styles */
 

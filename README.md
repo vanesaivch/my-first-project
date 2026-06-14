@@ -14,6 +14,7 @@ All pages have:
 - Main colors of the body are:   
 background-color: #ecdac3;
   color: #441113;
+- Main content of all pages is in flexbox in order to push the footer to the bottom of it.
 
 ### Header and Footer
 Both Header and Footer has same color for background #d9015c, text #fef5e2 and hover (hsl(121, 59%, 26%))  
