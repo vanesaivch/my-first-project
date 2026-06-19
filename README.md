@@ -8,14 +8,13 @@ Website is build with responsive design for different devices, contact form, com
 I chose the topic of flowers because they offer a wide variety of colours, shapes, and textures that can be combined to create visually appealing designs. The diverse colour combinations and high-quality floral images make it possible to design an attractive and engaging website with a welcoming atmosphere. Flowers also provide inspiration for elegant layouts and creative styling, allowing the website to showcase products in a way that captures the attention of visitors.
 ## Development Process
 ### Color Palette
-![fef5e2](https://shields.io)
-![ecdac3](https://shields.io)
-![F49AC1](https://shields.io)
-![d9015c](https://shields.io)
-![441113](https://shields.io)
-![bd5d85](https://shields.io)
-![1B691C](https://shields.io)
-
+- **Background Cream:** ![#FEF5E2](https://shields.io)
+- **Soft Tan:** ![#ECDAC3](https://shields.io)
+- **Pastel Pink:** ![#F49AC1](https://shields.io)
+- **Muted Rose:** ![#BD5D85](https://shields.io)
+- **Vibrant Magenta:** ![#D9015C](https://shields.io)
+- **Forest Green:** ![#1B691C](https://shields.io)
+- **Deep Maroon:** ![#441113](https://shields.io)
 
 
 
