@@ -1,4 +1,4 @@
-# Flower Shop in Canrwebury 
+# Flower Shop in Canterbury 
 A website presenting flower shop in Canterbury that offers services like flower arragements and bouquets. Customers can meet its history, see their work and contact them.
 ## Overview
 The project is static website that provides basic information and features using HTML and CSS languages.
