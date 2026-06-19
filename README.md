@@ -13,8 +13,9 @@ I chose the topic of flowers because they offer a wide variety of colours, shape
 * **Pastel Pink:** $${\color{#F49AC1}\blacksquare}$$ `#F49AC1`
 * **Muted Rose:** $${\color{#BD5D85}\blacksquare}$$ `#BD5D85`
 * **Magenta:** $${\color{#D9015C}\blacksquare}$$ `#D9015C`
+**Maroon:** $${\color{#441113}\blacksquare}$$ `#441113`
 * **Forest Green:** $${\color{#1B691C}\blacksquare}$$ `#1B691C`
-* **Maroon:** $${\color{#441113}\blacksquare}$$ `#441113`
+* 
 
 
 
