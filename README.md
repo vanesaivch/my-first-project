@@ -54,7 +54,17 @@ The layout for the "About Us" page consists of a background image with a semi-tr
 Colors are inherited of body styles but additional are added on parapgraphs border as #bd5d85 solid 4px
 
 #### Our Work
-The portfolio gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve.
+The gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve. Tjis caused me alot of difficulties to style it and didn't appear as I expected. This DOM hierarchy introduced severe layout issues: 
+ - Images became distorted on large monitors 
+ - Shrunk down too small on mobile screens
+ - Gallery was difficult to navigate.
+ To soleve this problem I changes the whole layout. 
+ - All image assets were moved directly into a single parent container
+ - The layout was transitioned to a native CSS Column layout engine. 
+ - Instead of using text-based layout overrides like line-height and line-gap to force image alignment, the spacing was resolved cleanly using native column property configurations all differ depending on the screen size: 
+    - Larger screen: column-count of 4
+    - Tablets: column-count of 3
+    - Mobile: column-count of 1
 
 #### Contact us
  - The contact page hosts a centrally aligned form component split into two logical fieldsets: "Your Details" and "Your Enquiry." The first section contains standard text inputs for name, email, and telephone, while the second section includes a select option dropdown for the inquiry type, a textarea for the message body, and a submit button. Upon successful form submission, the application routes the user to a standard confirmation "Thank You" view.
