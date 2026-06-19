@@ -173,7 +173,7 @@ main {
  #gallery {
   column-count: 4;
   column-gap: 0;
-  line-height: 0%;
+  line-height: 0;
  }
 
 /* Contact form styles */
@@ -383,6 +383,8 @@ form {
     column-count: 3;
   }
 }
+
+
 
  
     
