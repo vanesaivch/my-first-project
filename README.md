@@ -11,11 +11,11 @@ I chose the topic of flowers because they offer a wide variety of colours, shape
 * **Cream:** $${\color{#FEF5E2}\blacksquare}$$ `#FEF5E2`
 * **Tan:** $${\color{#ECDAC3}\blacksquare}$$ `#ECDAC3`
 * **Pastel Pink:** $${\color{#F49AC1}\blacksquare}$$ `#F49AC1`
-* **Muted Rose:** $${\color{#BD5D85}\blacksquare}$$ `#BD5D85`
 * **Magenta:** $${\color{#D9015C}\blacksquare}$$ `#D9015C`
+* **Muted Rose:** $${\color{#BD5D85}\blacksquare}$$ `#BD5D85`
 * **Maroon:** $${\color{#441113}\blacksquare}$$ `#441113`
 * **Forest Green:** $${\color{#1B691C}\blacksquare}$$ `#1B691C`
-* 
+ 
 
 
 
