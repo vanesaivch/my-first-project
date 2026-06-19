@@ -370,6 +370,17 @@ form {
     max-width: 100%;
     box-sizing: border-box;
   }
+  /* Our work page*/
+  #gallery {
+    column-count: 1;
+  }
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+  #gallery {
+    column-count: 3;
+  }
+}
+
  
     
