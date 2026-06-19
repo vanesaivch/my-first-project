@@ -58,7 +58,7 @@ The gallery is constructed using a Flexbox layout displaying twelve high-quality
  - Images became distorted on large monitors 
  - Shrunk down too small on mobile screens
  - Gallery was difficult to navigate.
- To soleve this problem I changes the whole layout. 
+To soleve this problem I changes the whole layout. 
  - All image assets were moved directly into a single parent container
  - The layout was transitioned to a native CSS Column layout engine. 
  - Instead of using text-based layout overrides like line-height and line-gap to force image alignment, the spacing was resolved cleanly using native column property configurations all differ depending on the screen size: 
