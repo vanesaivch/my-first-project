@@ -52,6 +52,12 @@ The second section focuses on the services offered by the shop. It provides a co
 #### About us Page
 The layout for the "About Us" page consists of a background image with a semi-transparent black overlay for high readability. The structure uses a two-column flexbox where the left column is left empty to offset the content, while the right column houses three paragraphs of company information. Each paragraph is wrapped in a distinct container element styled with a custom background and border, creating a clean, right-aligned block of text cards.
 Colors are inherited of body styles but additional are added on parapgraphs border as #bd5d85 solid 4px
+The previous layout did not provide the desired user experience across either larger screens or mobile devices. To improve responsiveness, visual consistency, and overall presentation, I decided to redesign the page structure.
+
+ - New layout begins with a prominent main heading (H1) accompanied by a brief introductory section that guides users and explains the purpose of the page. 
+ - Below this, three key information cards present the company's core details.
+ - The cards are arranged using a Flexbox layout, with each card containing an image positioned above its content. 
+ - To ensure a balanced and professional appearance, all cards maintain consistent dimensions of 28rem in width and height, with justify-content: space-evenly used to distribute them evenly across the available space.
 
 #### Our Work
 The gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve. Tjis caused me alot of difficulties to style it and didn't appear as I expected. This DOM hierarchy introduced severe layout issues: 
