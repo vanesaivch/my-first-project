@@ -147,6 +147,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 150px;
 }
 
 #aboutus-main {
@@ -155,6 +156,9 @@ main {
   justify-content: space-evenly;
   align-items: stretch;
   gap: 10px;
+  height: 500px;
+  
+  
 }
 
 .aboutus-info {
@@ -164,9 +168,14 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  border: 1px solid #d9015c;
+  border: 2px solid #d9015c;
   padding: 1rem;
   font-size: large;
+  background-color: hsla(34, 52%, 85%, 0.507);
+  
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1.5rem;
 }
 
 .aboutus-info img {
