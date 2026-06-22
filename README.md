@@ -114,7 +114,19 @@ main
 <!-- Finish Section -->
 ## Project structure
 
-<!--Finish Section-->
+```text
+Flower Shop/
+├── index.html               # Home page
+├── about.html               # About us page
+├── our-work.html            # Gallery page
+├── contact.html             # Contact page
+│
+├── assets/
+│   ├── mobile-nav-icons/    # Icons for mobile navigation menu
+│   ├── our-work-images/     # Images displayed in the Our Work section
+│   └── readme-images/       # Screenshots used in README documentation
+│
+└── README.md                # Project documentation
 
 ## Screenshots
 
