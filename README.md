@@ -53,6 +53,12 @@ The second section focuses on the services offered by the shop. It provides a co
 The layout for the "About Us" page consists of a background image with a semi-transparent black overlay for high readability. The structure uses a two-column flexbox where the left column is left empty to offset the content, while the right column houses three paragraphs of company information. Each paragraph is wrapped in a distinct container element styled with a custom background and border, creating a clean, right-aligned block of text cards.
 Colors are inherited of body styles but additional are added on parapgraphs border as #bd5d85 solid 4px
 The previous layout did not provide the desired user experience across either larger screens or mobile devices. To improve responsiveness, visual consistency, and overall presentation, I decided to redesign the page structure.
+##### The old design look:
+<p align="center">
+  <img src="assets/readme-images/aboutus-laptop.png" width="33%" />
+  <img src="assets/readme-images/aboutus-tablet.png" width="33%" />
+  <img src="assets/readme-images/aboutus-mobile.png" width="33%" />
+</p>
 
  - New layout begins with a prominent main heading (H1) accompanied by a brief introductory section. It is has set height of 150px. 
  - Below this, three key information cards present the company's core details.
