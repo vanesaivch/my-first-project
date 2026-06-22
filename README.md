@@ -57,7 +57,7 @@ The previous layout did not provide the desired user experience across either la
  - New layout begins with a prominent main heading (H1) accompanied by a brief introductory section. It is has set height of 150px. 
  - Below this, three key information cards present the company's core details.
  - The cards are arranged using a Flexbox layout, with each card containing an image positioned above its content. 
- - To ensure a balanced and professional appearance, all cards maintain consistent dimensions of 28rem in width and height, with justify-content: space-evenly used to distribute them evenly across the available space.
+ - To ensure a balanced and professional appearance, all cards maintain consistent dimensions of 28rem in **min-width** and **min-height** as well as **auto height and width** for responsive design, with justify-content: space-evenly used to distribute them evenly across the available space.
  - Each paragraph sections has a transparent blur background in order to have contrast of the image background. 
 
 #### Our Work
