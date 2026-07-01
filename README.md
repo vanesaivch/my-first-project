@@ -47,6 +47,27 @@ As a first-time visitor, I want to see a welcoming message on the home page so t
 * The content is friendly, engaging, and reflects the brand's personality.
 * The welcome message is clearly readable on both desktop and mobile devices.
 
+## Desing Choises
+
+### Color Choice
+The colour scheme for the website has been selected to reflect the natural beauty of flowers. A palette inspired by a variety of floral colours is complemented by green accents, representing the stems and vines of flowers.
+
+#### Color Pallete
+
+* **Cream:** $${\color{#FEF5E2}\blacksquare}$$ `#FEF5E2`
+* **Tan:** $${\color{#ECDAC3}\blacksquare}$$ `#ECDAC3`
+* **Pastel Pink:** $${\color{#F49AC1}\blacksquare}$$ `#F49AC1`
+* **Magenta:** $${\color{#D9015C}\blacksquare}$$ `#D9015C`
+* **Muted Rose:** $${\color{#BD5D85}\blacksquare}$$ `#BD5D85`
+* **Maroon:** $${\color{#441113}\blacksquare}$$ `#441113`
+* **Forest Green:** $${\color{#1B691C}\blacksquare}$$ `#1B691C`
+
+### Fonts 
+
+* Primary font for the content and heading is Bricolage Grotesque. This font was chosen for its distinctive and bold appearance which reflects the creativity and individuality of floral design.
+* Navigation font is Garamont as more readable and ellegant appearance.
+
+
 
 ## Features
 Website is build with responsive design for different devices, contact form, company's work and history and avaiable services.
@@ -71,14 +92,7 @@ Flower Shop/
 ```
 
 ## Development Process
-### Color Palette
-* **Cream:** $${\color{#FEF5E2}\blacksquare}$$ `#FEF5E2`
-* **Tan:** $${\color{#ECDAC3}\blacksquare}$$ `#ECDAC3`
-* **Pastel Pink:** $${\color{#F49AC1}\blacksquare}$$ `#F49AC1`
-* **Magenta:** $${\color{#D9015C}\blacksquare}$$ `#D9015C`
-* **Muted Rose:** $${\color{#BD5D85}\blacksquare}$$ `#BD5D85`
-* **Maroon:** $${\color{#441113}\blacksquare}$$ `#441113`
-* **Forest Green:** $${\color{#1B691C}\blacksquare}$$ `#1B691C`
+
  
 
 
