@@ -1,7 +1,53 @@
 # Flower Shop in Canterbury 
-A website presenting flower shop in Canterbury that offers services like flower arragements and bouquets. Customers can meet its history, see their work and contact them.
-## Overview
-The project is static website that provides basic information and features using HTML and CSS languages.
+# UX
+## Project Goals
+
+The objective of this project is to design and develop a professional website for a flower shop based in Canterbury. The website will showcase the shop's floral services, including custom flower arrangements and bouquets, while providing visitors with information about the business, its history, portfolio, and contact details.
+
+### Key Objectives
+
+* Develop a visually appealing website featuring a floral-inspired design with high-quality images and colourful backgrounds that reflect the beauty and creativity of the shop's work.
+* Present the flower shop's history, services, and portfolio to build credibility and help potential customers understand the business and its expertise.
+* Create an engaging user experience that inspires customers when planning weddings, celebrations, and other special events by showcasing a range of floral arrangements.
+* Include an easy-to-use contact form that allows customers to submit enquiries and select the relevant category, such as event flower arrangements, bouquet orders, or general enquiries.
+
+## User Stories
+### User Story - History of the shop (Must Have)
+
+As a website visitor, I want to read about the flower shop's history so that I can learn about the business, understand its experience, and feel confident in choosing its services.
+
+* A dedicate section available from the main navigation.
+* The page provides information about the flower shop's background, values, and experience.
+* The content is easy to read and visually appealing.
+
+### User Sory - Contact Form (Must Have)
+
+As a potential customer, I want to use a contact form to send an enquiry so that I can easily ask questions or request information about flower arrangements and services.
+
+* A contact form is available from the website's navigation or contact page.
+* Users can enter their name, email address, subject, and message as a required fields before validation.
+* Users can select an enquiry category (e.g., event flower arrangements, bouquet orders, or general enquiries).
+* A confirmation message is displayed after successful submission.
+
+### User Story – Business Information (Must Have)
+
+As a customer, I want to view the flower shop's address, opening hours, and social media links so that I can visit the shop, know when it is open, and stay connected with the business online.
+
+* The website displays the flower shop's full address.
+* Opening hours are clearly listed and easy to read.
+* Social media links are visible and direct users to the shop's official profiles.
+* The information is accessible from the website footer.
+
+### User Story 3 (Should Have)
+
+As a first-time visitor, I want to see a welcoming message on the home page so that I immediately understand the flower shop's purpose and feel encouraged to explore the website.
+
+* A welcoming message is displayed prominently on the home page.
+* The message briefly introduces the flower shop and its services.
+* The content is friendly, engaging, and reflects the brand's personality.
+* The welcome message is clearly readable on both desktop and mobile devices.
+
+
 ## Features
 Website is build with responsive design for different devices, contact form, company's work and history and avaiable services.
 ## Planing
