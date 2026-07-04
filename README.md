@@ -67,6 +67,56 @@ The colour scheme for the website has been selected to reflect the natural beaut
 * Primary font for the content and heading is Bricolage Grotesque. This font was chosen for its distinctive and bold appearance which reflects the creativity and individuality of floral design.
 * Navigation font is Garamont as more readable and ellegant appearance.
 
+### Backgrounds
+
+A floral background was implemented on each page to align with the primary color palette of the header and the overall website, ensuring a consistent and cohesive visual design across the application.
+
+### Styling
+
+The website maintains a consistent visual style while incorporating page-specific design elements. The Home page features a welcome section with a transparent overlay positioned over a background image, along with green-bordered cards inspired by floral vines. The About Us page uses rounded pink-bordered cards to distinguish its content while maintaining design consistency, with all cards aligned in a responsive horizontal layout.
+
+## Testing
+
+#### About us Page
+Initial Layout consisted a background image with a semi-transparent black overlay. The structure used a two-column flexbox where the left column was left empty to offset the content, while the right column houses three paragraphs of company information. Each paragraph was wrapped in a distinct container element styled with a custom background and border. This layout did not provide the desired user experience across either larger screens or mobile devices. To improve responsiveness, visual consistency, and overall presentation, I decided to redesign the page structure.
+##### The old design look:
+| | | |
+|---|---|---|
+| <img src="assets/readme-images/aboutus-laptop.png" width="200"> | <img src="assets/readme-images/aboutus-tablet.png" width="200"> | <img src="assets/readme-images/aboutus-mobile.png" width="200"> |
+
+##### New design styles:
+ - New layout begins with a prominent main heading (H1) accompanied by a brief introductory section. It is has set height of 150px. 
+ - Below this, three key information cards present the company's core details.
+ - The cards are arranged using a Flexbox layout, with each card containing an image positioned above its content. 
+ - To ensure a balanced and professional appearance, all cards maintain consistent dimensions of 28rem in **min-width** and **min-height** as well as **auto height and width** for responsive design, with justify-content: space-evenly used to distribute them evenly across the available space.
+ - Each paragraph sections has a transparent blur background in order to have contrast of the image background. 
+
+ #### Our Work Page
+The gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve. Tjis caused me alot of difficulties to style it and didn't appear as I expected. This DOM hierarchy introduced severe layout issues: 
+  - Images became distorted on large monitors 
+  - Shrunk down too small on mobile screens
+  - Gallery was difficult to navigate.
+To solve this problem I changes the whole layout. 
+ - All image assets were moved directly into a single parent container
+ - The layout was transitioned to a native CSS Column layout engine. 
+ - Instead of using text-based layout overrides like line-height and line-gap to force image alignment, the spacing was resolved cleanly using native column property configurations all differ depending on the screen size: 
+    - Larger screen: column-count of 4
+    - Tablets: column-count of 3
+    - Mobile: column-count of 1
+
+#### Media query
+##### Mibile devides of max-width:576px
+ - Refactored responsive image handling by migrating inline HTML dimensions to CSS, applying a max-width: 100% and height: auto rule to resolve mobile layout breaking. 
+ - Updated the header configuration to use a Flexbox column layout, and refactored the navigation bar by setting font-size: 0 to hide text labels in favor of icon fonts, which now match the cohesive nav and footer color palette. The icons did't appear big enought and seems Contact icon pop on the next line. To fix this issue I added:
+    - Increased size from 18px to 24px.
+    - Added flex-wrap: nowrap, justify-content in the center with 100% width.
+    - Logo is aligned-self in center.
+###### Home page
+ - Optimized the Home page services layout for mobile responsiveness; using a max-width: 576px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
+ - The position of #main-h1 on laptop was styled with width,left,top proeprties. This caused overflow to mobile. I put same properies back to width:100% and left and top to auto, so it looks better on mobile.
+ ###### Contact Form
+ The form layout was breaking on mobile viewports because the textarea element was overflowing its parent container. The overflow issue was resolved  by explicitly defining the width and height properties for the mobile breakpoint. Additionally, I applied box-sizing: border-box to ensure that any padding or borders are contained within the declared dimensions, preventing further layout breakage.
+ - For more depth, the form and thank you message got box shadow propery with 13px 16px 20px 0px #d9015c.
 
 
 ## Features
@@ -127,34 +177,10 @@ The first section features a welcoming message that greets users when they visit
 
 The second section focuses on the services offered by the shop. It provides a concise description of the different floral services available. There are 3 div in flex row with images and border in color hsl(121, 59%, 26%) solid 4px. This color is the same as hover on header and footer. As well as choosen font family is "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif. There is a hover property with scale(1.05).
 
-#### About us Page
-The layout for the "About Us" page consists of a background image with a semi-transparent black overlay for high readability. The structure uses a two-column flexbox where the left column is left empty to offset the content, while the right column houses three paragraphs of company information. Each paragraph is wrapped in a distinct container element styled with a custom background and border, creating a clean, right-aligned block of text cards.
-Colors are inherited of body styles but additional are added on parapgraphs border as #bd5d85 solid 4px
-The previous layout did not provide the desired user experience across either larger screens or mobile devices. To improve responsiveness, visual consistency, and overall presentation, I decided to redesign the page structure.
 
-##### The old design look:
-| | | |
-|---|---|---|
-| <img src="assets/readme-images/aboutus-laptop.png" width="200"> | <img src="assets/readme-images/aboutus-tablet.png" width="200"> | <img src="assets/readme-images/aboutus-mobile.png" width="200"> |
 
- - New layout begins with a prominent main heading (H1) accompanied by a brief introductory section. It is has set height of 150px. 
- - Below this, three key information cards present the company's core details.
- - The cards are arranged using a Flexbox layout, with each card containing an image positioned above its content. 
- - To ensure a balanced and professional appearance, all cards maintain consistent dimensions of 28rem in **min-width** and **min-height** as well as **auto height and width** for responsive design, with justify-content: space-evenly used to distribute them evenly across the available space.
- - Each paragraph sections has a transparent blur background in order to have contrast of the image background. 
 
-#### Our Work
-The gallery is constructed using a Flexbox layout displaying twelve high-quality images distributed evenly across four rows, with each item set to a width of approximately 33%. The images are configured with relative positioning and a constrained height of 150px. For the visual styling, a specific border-radius of 0 0 25% 10% is applied, giving the corners of each image plac an asymmetrical curve. Tjis caused me alot of difficulties to style it and didn't appear as I expected. This DOM hierarchy introduced severe layout issues: 
-  - Images became distorted on large monitors 
-  - Shrunk down too small on mobile screens
-  - Gallery was difficult to navigate.
-To solve this problem I changes the whole layout. 
- - All image assets were moved directly into a single parent container
- - The layout was transitioned to a native CSS Column layout engine. 
- - Instead of using text-based layout overrides like line-height and line-gap to force image alignment, the spacing was resolved cleanly using native column property configurations all differ depending on the screen size: 
-    - Larger screen: column-count of 4
-    - Tablets: column-count of 3
-    - Mobile: column-count of 1
+
 
 #### Contact us
  - The contact page hosts a centrally aligned form component split into two logical fieldsets: "Your Details" and "Your Enquiry." The first section contains standard text inputs for name, email, and telephone, while the second section includes a select option dropdown for the inquiry type, a textarea for the message body, and a submit button. Upon successful form submission, the application routes the user to a standard confirmation "Thank You" view.
@@ -162,19 +188,7 @@ To solve this problem I changes the whole layout.
  - A background image is applied to the container to create a visually appealing backdrop. The form itself features a semi-transparent background with a backdrop-filter: blur(...) effect. Rounded corners are added with border-radius to create a modern and polished design.
 
 
-#### Media query
-##### Mibile devides of max-width:576px
- - Refactored responsive image handling by migrating inline HTML dimensions to CSS, applying a max-width: 100% and height: auto rule to resolve mobile layout breaking. 
- - Updated the header configuration to use a Flexbox column layout, and refactored the navigation bar by setting font-size: 0 to hide text labels in favor of icon fonts, which now match the cohesive nav and footer color palette. The icons did't appear big enought and seems Contact icon pop on the next line. To fix this issue I added:
-    - Increased size from 18px to 24px.
-    - Added flex-wrap: nowrap, justify-content in the center with 100% width.
-    - Logo is aligned-self in center.
-###### Home page
- - Optimized the Home page services layout for mobile responsiveness; using a max-width: 576px media query, the grid system was switched from a row layout to a stacked column layout to prevent horizontal overflow on smaller viewports.
- - The position of #main-h1 on laptop was styled with width,left,top proeprties. This caused overflow to mobile. I put same properies back to width:100% and left and top to auto, so it looks better on mobile.
- ###### Contact Form
- The form layout was breaking on mobile viewports because the textarea element was overflowing its parent container. The overflow issue was resolved  by explicitly defining the width and height properties for the mobile breakpoint. Additionally, I applied box-sizing: border-box to ensure that any padding or borders are contained within the declared dimensions, preventing further layout breakage.
- - For more depth, the form and thank you message got box shadow propery with 13px 16px 20px 0px #d9015c.
+
 ## Technologies used
 - HTML
 - CSS
