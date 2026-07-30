@@ -124,6 +124,7 @@ To solve this problem I changes the whole layout.
 
 Codes for nav bar are replaced from text on larger screen view to icons on mobile screen view with the help of VS Code imported AI tool. 
 Those codes are:
+```css 
 .home {
     display: inline-flex;
     align-items: center;
@@ -193,6 +194,7 @@ Those codes are:
     background-position: center;
     margin-right: 5px;
   }
+  ```
 
 ### Images
 Images for both gallery and backgrounds were found and imported from following websites:
