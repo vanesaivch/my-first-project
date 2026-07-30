@@ -54,6 +54,9 @@ The colour scheme for the website has been selected to reflect the natural beaut
 
 #### Color Pallete
 
+<img src="assets/readme-images/pallete.png">
+
+
 * **Cream:** $${\color{#FEF5E2}\blacksquare}$$ `#FEF5E2`
 * **Tan:** $${\color{#ECDAC3}\blacksquare}$$ `#ECDAC3`
 * **Pastel Pink:** $${\color{#F49AC1}\blacksquare}$$ `#F49AC1`
@@ -209,9 +212,9 @@ Icons used for the nav bar in movile version were downloaded from https://fontaw
 
 Website was build using VS Code and each update was commited onto GitHUb website. To find and run you should follow the steps bellow:
 - Open https://github.com/vanesaivch/ which is the direct link to the profile.
-- Open the repository names my-first-project
-- On the right hand side, you can find Deployments section
-- After you click Deployments, the link will appear.
+- Open the repository names **my-first-project**
+- On the right hand side, you can find **Deployments** section
+- After you click **Deployments**, the link will appear.
 ## Features
 Website is build with responsive design for different devices, contact form, company's work and history and avaiable services.
 ## Planing
