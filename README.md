@@ -56,15 +56,6 @@ The colour scheme for the website has been selected to reflect the natural beaut
 
 <img src="assets/readme-images/pallete.png">
 
-
-* **Cream:** $${\color{#FEF5E2}\blacksquare}$$ `#FEF5E2`
-* **Tan:** $${\color{#ECDAC3}\blacksquare}$$ `#ECDAC3`
-* **Pastel Pink:** $${\color{#F49AC1}\blacksquare}$$ `#F49AC1`
-* **Magenta:** $${\color{#D9015C}\blacksquare}$$ `#D9015C`
-* **Muted Rose:** $${\color{#BD5D85}\blacksquare}$$ `#BD5D85`
-* **Maroon:** $${\color{#441113}\blacksquare}$$ `#441113`
-* **Forest Green:** $${\color{#1B691C}\blacksquare}$$ `#1B691C`
-
 ### Fonts 
 
 * Primary font for the content and heading is Bricolage Grotesque. This font was chosen for its distinctive and bold appearance which reflects the creativity and individuality of floral design.
