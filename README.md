@@ -118,7 +118,98 @@ To solve this problem I changes the whole layout.
  The form layout was breaking on mobile viewports because the textarea element was overflowing its parent container. The overflow issue was resolved  by explicitly defining the width and height properties for the mobile breakpoint. Additionally, I applied box-sizing: border-box to ensure that any padding or borders are contained within the declared dimensions, preventing further layout breakage.
  - For more depth, the form and thank you message got box shadow propery with 13px 16px 20px 0px #d9015c.
 
+## Credits
 
+### Code
+
+Codes for nav bar are replaced from text on larger screen view to icons on mobile screen view with the help of VS Code imported AI tool. 
+Those codes are:
+.home {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+  .home::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/home.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+  .about {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  .about::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/about.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+  .our-work {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  .our-work::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/work.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+  .contact {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0;
+  }
+
+  .contact::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('assets/mobile-nav-icons/envelope.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+  }
+
+### Images
+Images for both gallery and backgrounds were found and imported from following websites:
+
+https://unsplash.com/
+https://www.pexels.com/
+
+### Mobile Icons
+Icons used for the nav bar in movile version were downloaded from https://fontawesome.com/
+
+## Deployment
+
+Website was build using VS Code and each update was commited onto GitHUb website. To find and run you should follow the steps bellow:
+- Open https://github.com/vanesaivch/ which is the direct link to the profile.
+- Open the repository names my-first-project
+- On the right hand side, you can find Deployments section
+- After you click Deployments, the link will appear.
 ## Features
 Website is build with responsive design for different devices, contact form, company's work and history and avaiable services.
 ## Planing
