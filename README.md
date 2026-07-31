@@ -210,6 +210,11 @@ Website was build using VS Code and each update was commited onto GitHUb website
 ## Testing details
 
 ### Validator testing
+Each page was tested with w3c validator. There was few issues to resolve:
+- **Home page** pictures were missing a **alt** atributte.
+- **Our Work** page had *img* elements with a closing tags. All was removed and fixed and a self-closing element.
+- **Our Work** page lacks a h2-h6 headings. Dues to its layout, there is no need of headitngs other than a h1.
+- **Send message** logo had set *width* and *height* directly into HTML file and id was missing. Added logo id as it is on the other pages and removed *width* and *height* attributes.
 
 ### User stories testing
 
