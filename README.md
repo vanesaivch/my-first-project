@@ -69,7 +69,7 @@ A floral background was implemented on each page to align with the primary color
 
 The website maintains a consistent visual style while incorporating page-specific design elements. The Home page features a welcome section with a transparent overlay positioned over a background image, along with green-bordered cards inspired by floral vines. The About Us page uses rounded pink-bordered cards to distinguish its content while maintaining design consistency, with all cards aligned in a responsive horizontal layout.
 
-## Testing
+## Debugging 
 
 #### About us Page
 Initial Layout consisted a background image with a semi-transparent black overlay. The structure used a two-column flexbox where the left column was left empty to offset the content, while the right column houses three paragraphs of company information. Each paragraph was wrapped in a distinct container element styled with a custom background and border. This layout did not provide the desired user experience across either larger screens or mobile devices. To improve responsiveness, visual consistency, and overall presentation, I decided to redesign the page structure.
@@ -206,10 +206,27 @@ Website was build using VS Code and each update was commited onto GitHUb website
 - Open the repository names **my-first-project**
 - On the right hand side, you can find **Deployments** section
 - After you click **Deployments**, the link will appear.
-## Features
-Website is build with responsive design for different devices, contact form, company's work and history and avaiable services.
-## Planing
-I chose the topic of flowers because they offer a wide variety of colours, shapes, and textures that can be combined to create visually appealing designs. The diverse colour combinations and high-quality floral images make it possible to design an attractive and engaging website with a welcoming atmosphere. Flowers also provide inspiration for elegant layouts and creative styling, allowing the website to showcase products in a way that captures the attention of visitors.
+
+## Testing details
+
+### Validator testing
+
+### User stories testing
+
+#### History of the shop
+ - The **About Us** and **Our Work** pages were implemented to highlight the owners' history, experience, and mission. 
+ - Both pages are accessible through the website's navigation bar, ensuring users can easily explore the brand's story, values, and creative process.
+
+#### Contact form
+ - Contact form has been clearly marked into separeta page, which is accesible through the main nav bar menu.
+
+#### Bussiness information
+ - All essential business information is permanently visible and easily accessible throughout the website, ensuring users can quickly find the details they need without unnecessary navigation.
+ - The website footer includes the company's complete contact information, including its physical address and links to its social media profiles.
+
+ #### Welcoming message
+
+ - On the home page, each visitor is welcomed with a short message and brief information of the website content.
 
 ## Project structure
 
@@ -227,11 +244,6 @@ Flower Shop/
 │
 └── README.md                # Project documentation
 ```
-
-## Development Process
-
- 
-
 
 
 ### General Styles
