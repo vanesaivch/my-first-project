@@ -13,6 +13,27 @@ The objective of this project is to design and develop a professional website fo
 * Create an engaging user experience that inspires customers when planning weddings, celebrations, and other special events by showcasing a range of floral arrangements.
 * Include an easy-to-use contact form that allows customers to submit enquiries and select the relevant category, such as event flower arrangements, bouquet orders, or general enquiries.
 
+## Project structure
+
+```text
+Flower Shop/
+├── index.html               # Home page
+├── about.html               # About us page
+├── our-work.html            # Gallery page
+├── contact.html             # Contact page
+│
+├── assets/
+│   ├── mobile-nav-icons/    # Icons for mobile navigation menu
+│   ├── our-work-images/     # Images displayed in the Our Work section
+│   └── readme-images/       # Screenshots used in README documentation
+│
+└── README.md                # Project documentation
+```
+## Technologies used
+- HTML
+- CSS
+
+
 ## User Stories
 ### User Story - History of the shop (Must Have)
 
@@ -235,89 +256,7 @@ Each page was tested with w3c validator. There was few issues to resolve:
 
  - On the home page, each visitor is welcomed with a short message and brief information of the website content.
 
-## Project structure
-
-```text
-Flower Shop/
-├── index.html               # Home page
-├── about.html               # About us page
-├── our-work.html            # Gallery page
-├── contact.html             # Contact page
-│
-├── assets/
-│   ├── mobile-nav-icons/    # Icons for mobile navigation menu
-│   ├── our-work-images/     # Images displayed in the Our Work section
-│   └── readme-images/       # Screenshots used in README documentation
-│
-└── README.md                # Project documentation
-```
 
 
-### General Styles
-All pages have:
-- Box-sizing of border-box
-- Margina and padding set to 0
-- Main colors of the body are:   
-background-color: #ecdac3;
-  color: #441113;
-- Main content of all pages is in flexbox in order to push the footer to the bottom of it.
-- font- family is Bricolage Grotesque 
-### Header and Footer
-Both Header and Footer has same color for background #d9015c, text #fef5e2 and hover (hsl(121, 59%, 26%))  
-#### Header
-The header contains the company logo positioned on the left and a navigation bar aligned to the right with links to the four main pages of the website.
-
-When choosing the logo, I used colours from the website’s chosen colour palette to maintain a cohesive and professional visual identity throughout the site. 
-
-Each navigation item is wrapped in an anchor element. Each anchor has letter spacing of 2px and padding of 20px. To improve usability and provide visual feedback, I added a hover effect that changes the colour of the links when the user moves the mouse over them. I also styled the active page link so that its text is displayed in uppercase.
-#### Footer
-The footer includes the flower shop’s address, contact details, and links to its social media profiles.
-
-The layout of the footer was built using CSS Flexbox with address on the left and social media networks on the right
-
-For the social media links, I used font awesome icons elements to display icons representing each platform, such as Facebook, Instagram, and Twitter.
-
-#### Home Page
-The Home page is divided into two main sections.
-The first section features a welcoming message that greets users when they visit the website. It includes a brief introduction to the flower shop. It is wrpaed in a div with h1 and p. There is background image with height of 585px. H1 and p text is in color #fef5e2 and has its own transparent background in color hsla(334, 80%, 78%, 0.522) so it can be fully readeble. As the text wasn't looking well enough, I added relative position to both h1 and p. H1 have width of 80% with left:10% and top:20%, and p have width of 40% with left of 30% and top of 30%. This made it stays more cerntal of the page.
-
-The second section focuses on the services offered by the shop. It provides a concise description of the different floral services available. There are 3 div in flex row with images and border in color hsl(121, 59%, 26%) solid 4px. This color is the same as hover on header and footer. As well as choosen font family is "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif. There is a hover property with scale(1.05).
-
-
-
-
-
-
-#### Contact us
- - The contact page hosts a centrally aligned form component split into two logical fieldsets: "Your Details" and "Your Enquiry." The first section contains standard text inputs for name, email, and telephone, while the second section includes a select option dropdown for the inquiry type, a textarea for the message body, and a submit button. Upon successful form submission, the application routes the user to a standard confirmation "Thank You" view.
- - The Contact form is placed inside a Flexbox container, which allows it to be centered  using justify-content: center and align-items: center. The container spans the full width  of the viewport, ensuring the form remains centered regardless of screen size. 
- - A background image is applied to the container to create a visually appealing backdrop. The form itself features a semi-transparent background with a backdrop-filter: blur(...) effect. Rounded corners are added with border-radius to create a modern and polished design.
-
-
-
-## Technologies used
-- HTML
-- CSS
-## Instalation
-1. Repository:
-```bash
-https://vanesaivch.github.io/my-first-project/
-```
-2. Project folder:
-```bash
-main
-```
-## Usage
-
-<!-- Finish Section -->
-
-
-
-## Screenshots
-
-<!-- Finish Section -->
-
-## Live Demo
-<!-- Finish Section -->
 
 
