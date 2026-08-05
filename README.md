@@ -240,6 +240,7 @@ Each page was tested with w3c validator. There was few issues to resolve:
 
 - **About Us** page had *img* elements with a closing tags. All was removed and fixed as a self-closing element.
 <img src="assets/readme-images/testing/about.testing.png">
+
 - **Our Work** page lacks a h2-h6 headings. Dues to its layout, there is no need of headitngs other than a h1.
 <img src="assets/readme-images/testing/work.testing.png">
 
@@ -252,16 +253,24 @@ Each page was tested with w3c validator. There was few issues to resolve:
  - The **About Us** and **Our Work** pages were implemented to highlight the owners' history, experience, and mission. 
  - Both pages are accessible through the website's navigation bar, ensuring users can easily explore the brand's story, values, and creative process.
 
+ <img src="assets/readme-images/user_stories_testing/history_of_the_shop.png">
+ <img src="assets/readme-images/user_stories_testing/history_of_the_shop1.png">
+
 #### Contact form
  - Contact form has been clearly marked into separeta page, which is accesible through the main nav bar menu.
+
+ <img src="assets/readme-images/user_stories_testing/contact_form.png">
 
 #### Bussiness information
  - All essential business information is permanently visible and easily accessible throughout the website, ensuring users can quickly find the details they need without unnecessary navigation.
  - The website footer includes the company's complete contact information, including its physical address and links to its social media profiles.
 
+<img src="assets/readme-images/user_stories_testing/bussines_info.png">
+
  #### Welcoming message
 
  - On the home page, each visitor is welcomed with a short message and brief information of the website content.
+ <img src="assets/readme-images/user_stories_testing/welcome_message.png">
 
 
 
