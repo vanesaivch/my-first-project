@@ -235,9 +235,16 @@ Website was build using VS Code and each update was commited onto GitHUb website
 ### Validator testing
 Each page was tested with w3c validator. There was few issues to resolve:
 - **Home page** pictures were missing an *alt* attribute.
-- **Our Work** page had *img* elements with a closing tags. All was removed and fixed as a self-closing element.
+
+<img src="assets/readme-images/testing/index.testing.png">
+
+- **About Us** page had *img* elements with a closing tags. All was removed and fixed as a self-closing element.
+<img src="assets/readme-images/testing/about.testing.png">
 - **Our Work** page lacks a h2-h6 headings. Dues to its layout, there is no need of headitngs other than a h1.
+<img src="assets/readme-images/testing/work.testing.png">
+
 - **Send message** logo had set *width* and *height* directly into HTML file and id was missing. Added logo id as it is on the other pages and removed *width* and *height* attributes.
+<img src="assets/readme-images/testing/contact.testing.png">
 
 ### User stories testing
 
