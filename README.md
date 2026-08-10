@@ -247,6 +247,10 @@ Each page was tested with w3c validator. There was few issues to resolve:
 - **Send message** logo had set *width* and *height* directly into HTML file and id was missing. Added logo id as it is on the other pages and removed *width* and *height* attributes.
 <img src="assets/readme-images/testing/contact.testing.png">
 
+- CSS styles testing
+ 
+<img src="assets/readme-images/testing/styles.testing.png">
+
 ### Lighthouse Testing
 
 <img src="assets/readme-images/testing/lighthouse-testing.png">
